@@ -7,7 +7,7 @@ import cactus6 from "../assets/cactus6.png"
 import cactus7 from "../assets/cactus7.png"
 import cactus8 from "../assets/cactus8.png"
 import love from "../assets/Love.png"
-import love2 from "../assets/Love2.png"
+import love2 from "../assets/love2.png"
 import Offercard from "./Offercard"
 
 const Offer = () => {
