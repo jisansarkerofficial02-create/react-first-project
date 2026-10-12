@@ -11,12 +11,14 @@ import Quality from './components/Quality'
 import Submit from './components/Submit'
 
 const App = () => {
+  const [cartCount, setCartCount] = useState(0)
+
   return (
     <main>
-      <Header></Header>
+      <Header cartCount={cartCount} />
       <Hero></Hero>
       <Help></Help>
-      <Offer></Offer>
+      <Offer onAddToCart={() => setCartCount((count) => count + 1)} />
       <Quality/>
       <Gallery/>
       <Aboutus/>
@@ -28,3 +30,4 @@ const App = () => {
 }
 
 export default App
+import { useState } from 'react'

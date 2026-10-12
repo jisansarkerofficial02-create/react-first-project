@@ -3,7 +3,7 @@ import logo from "../assets/Vector.svg"
 
 const Hero = () => {
   return (
-    <section className='hero relative'>
+    <section id="home" className='hero relative'>
         <div className='container'>
             <div>
                 <div className=' '>

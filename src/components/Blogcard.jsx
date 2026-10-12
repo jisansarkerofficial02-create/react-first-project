@@ -2,7 +2,7 @@
 
 const Blogcard = ({ image1, image2, image3, tittle, description, text }) => {
   return (
-    <div className=" overflow-hidden">
+    <div className="blog-card overflow-hidden">
         
         <div >
             <div>

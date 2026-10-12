@@ -4,7 +4,7 @@ import twit from "../assets/Twitter.png"
 
 const Footer = () => {
   return (
-    <footer className='footer bg-[#285A43] py-12 text-white'>
+    <footer id="contact" className='footer bg-[#285A43] py-12 text-white'>
       <div className='container mx-auto flex flex-col items-center justify-center text-center'>
         <h3 className='mb-6 text-2xl font-semibold'>Feel free to contact us</h3>
 
@@ -14,7 +14,7 @@ const Footer = () => {
           <img src={twit} alt='Twitter icon' className='h-8 w-8 object-contain' />
         </div>
 
-        <ul className='flex flex-wrap items-center text-[12px] justify-center gap-x-12 gap-y-3 text-[#FFFFFF]'>
+        <ul className='footer-links flex flex-wrap items-center text-[12px] justify-center gap-x-12 gap-y-3 text-[#FFFFFF]'>
           <li>Home</li>
           <li>About Us</li>
           <li>Plants</li>

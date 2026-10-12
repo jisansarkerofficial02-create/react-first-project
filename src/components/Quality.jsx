@@ -9,12 +9,12 @@ const Quality = () => {
   return (
     <section>
         <div>
-           <div className="grid grid-cols-2 mt-28.5">
+           <div className="quality-grid grid grid-cols-2 mt-28.5">
                 <div className="h-189.5px">
                     <img className="w-full" src={quality} alt="image" />
                 </div>
 
-                <div className="grid grid-cols-2 ">
+                <div className="quality-cards grid grid-cols-2 ">
                     <Qualitycard image={quality1} color="bg-[#FCFCFC]" tittle={"Quality Product"} description={"Our flowers are of the highest quality, carefully selected and sourced from reputable"} />
                     <Qualitycard image={quality2} color="bg-[#F8F8F8]"  tittle={"Always Fresh"} description={"Our flowers are always fresh, handpicked and delivered promptly for maximum longevity and enjoyment."} />
                     <Qualitycard image={quality3} color="bg-[#FCFCFC]" tittle={"Work Smart"} description={"We work smart, using innovative techniques and technology to streamline our processes"} />

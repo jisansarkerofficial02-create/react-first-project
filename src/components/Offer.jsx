@@ -10,22 +10,22 @@ import love from "../assets/Love.png"
 import love2 from "../assets/love2.png"
 import Offercard from "./Offercard"
 
-const Offer = () => {
+const Offer = ({ onAddToCart }) => {
   return (
-    <section className="pt-30">
+    <section id="planters" className="offer-section pt-30">
         <div className="container">
             <div className="flex justify-center text-center w-full pb-9">
                 <h2>What we offer to you</h2>
             </div>
-            <div className="grid grid-cols-4 gap-7">
-                <Offercard image={cactus} image2={love} />
-                <Offercard image={cactus2} image2={love2} />
-                <Offercard image={cactus3} image2={love2} />
-                <Offercard image={cactus4} image2={love2} />
-                <Offercard image={cactus5} image2={love2} />
-                <Offercard image={cactus6} image2={love2} />
-                <Offercard image={cactus7} image2={love2} />
-                <Offercard image={cactus8} image2={love2} />
+            <div className="offer-grid grid grid-cols-4 gap-7">
+                <Offercard image={cactus} image2={love} onAddToCart={onAddToCart} />
+                <Offercard image={cactus2} image2={love2} onAddToCart={onAddToCart} />
+                <Offercard image={cactus3} image2={love2} onAddToCart={onAddToCart} />
+                <Offercard image={cactus4} image2={love2} onAddToCart={onAddToCart} />
+                <Offercard image={cactus5} image2={love2} onAddToCart={onAddToCart} />
+                <Offercard image={cactus6} image2={love2} onAddToCart={onAddToCart} />
+                <Offercard image={cactus7} image2={love2} onAddToCart={onAddToCart} />
+                <Offercard image={cactus8} image2={love2} onAddToCart={onAddToCart} />
                 
             </div>
         </div>

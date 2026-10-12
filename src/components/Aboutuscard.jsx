@@ -2,7 +2,7 @@
 const Aboutuscard = ({ image, bgimage, tittle,description }) => {
   return (
     <div
-      className="about w-90 pl-11 overflow-hidden rounded-[10px] bg-[#F8F8F8]"
+      className="about about-card w-90 pl-11 overflow-hidden rounded-[10px] bg-[#F8F8F8]"
       style={{ backgroundImage: `url(${bgimage})` }}
     >
       <div className="flex items-center pt-10 pb-8 gap-5">
